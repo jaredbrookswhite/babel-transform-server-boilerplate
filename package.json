@@ -1,0 +1,27 @@
+{
+  "name": "react-transform-boilerplate",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Jared White <jaredbrookswhite@me.com> (http://github.com/jaredbrookswhite)",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "eslint": "^1.10.3",
+    "eslint-config-airbnb": "^3.1.0",
+    "eslint-loader": "^1.2.0",
+    "eslint-plugin-babel": "^3.0.0",
+    "eslint-plugin-import": "^0.12.1",
+    "eslint-plugin-react": "^3.15.0",
+    "piping": "^0.3.0"
+  },
+  "dependencies": {
+    "babel-core": "^6.4.0",
+    "babel-eslint": "^4.1.6",
+    "babel-plugin-typecheck": "^3.6.1",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
+    "babel-register": "^6.4.3",
+    "express": "^4.13.3"
+  }
+}
