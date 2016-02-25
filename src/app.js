@@ -1,19 +1,13 @@
-import express from 'express';
-import { join } from 'path';
+import koa from 'koa';
+import route from 'koa-route';
 
+const app = koa();
 const port = 3000;
-const app = express();
 
-app.get('/', (req, res) => {
-  res.sendFile(join(__dirname, 'index.html'));
-});
-app.use(express.static(join(__dirname, 'dist_env')));
+function *index() {
+  this.body = 'Hello World';
+}
 
-app.listen(port, 'localhost', (err) => {
-  if (err) {
-    console.log(err);
-    return;
-  }
+app.use(route.get('/', index));
 
-  console.log(`Listening at http://localhost:${port}`);
-});
+app.listen(port);
