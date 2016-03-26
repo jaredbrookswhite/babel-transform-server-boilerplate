@@ -8,7 +8,7 @@
   "author": "Jared White <jaredbrookswhite@me.com> (http://github.com/jaredbrookswhite)",
   "license": "CC0-1.0",
   "devDependencies": {
-    "babel-eslint": "^5.0.0",
+    "babel-eslint": "^6.0.0",
     "eslint": "^2.2.0",
     "eslint-config-airbnb": "^6.0.2",
     "eslint-loader": "^1.3.0",
