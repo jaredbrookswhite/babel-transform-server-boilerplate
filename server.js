@@ -1,5 +1,5 @@
-require("babel-register");
-require("babel-polyfill");
+require('babel-register');
+require('babel-polyfill');
 
 if (process.env.NODE_ENV !== 'production') {
   if (!require('piping')({
@@ -9,4 +9,5 @@ if (process.env.NODE_ENV !== 'production') {
     return;
   }
 }
-var app = require("./src/app.js");
+
+require('./src/app.js');
